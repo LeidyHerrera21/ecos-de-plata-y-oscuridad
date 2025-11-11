@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecos de Plata y Oscuridad</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="ecos.jpg">
+</head>
+<body>
+
+  <section id="home" class="screen active">
+    <h1 class="main-title animated-title">Ecos de Plata y Oscuridad</h1>
+    <div class="menu-grid">
+      <button class="menu-button" onclick="showScreen('characters')">Ficha de Personajes</button>
+      <button class="menu-button" onclick="showScreen('data')">Datos Extra</button>
+      <button class="menu-button" onclick="showScreen('playlist')">Playlist</button>
+      <button class="menu-button" onclick="window.open('http://127.0.0.1:5500/index.html', '_blank')">Página de la autora</button>
+    </div>
+  </section>
+
+  <section id="characters" class="screen">
+    <button class="back-button" onclick="goBack()">← Volver</button>
+    <h2 class="content-title">
+      <span class="silver-text">Ecos de Plata</span> y <span class="dark-text">Oscuridad</span>
+    </h2>
+    <div class="character-grid">
+      <div class="char-box">Emma Malfoy</div>
+      <div class="char-box">Regulus Black</div>
+      <div class="char-box">Lucius Malfoy</div>
+      <div class="char-box">Bellatrix Lestrange</div>
+      <div class="char-box">Sirius Black</div>
+      <div class="char-box">Draco Malfoy</div>
+      <div class="char-box">Tom Riddle</div>
+      <div class="char-box">Narcisa Malfoy</div>
+      <div class="char-box">Astoria Greengrass</div>
+      <div class="char-box">Aurora Diggory</div>
+      <div class="char-box">Cedric Diggory</div>
+      <div class="char-box">Matthew Riddle</div>
+      <div class="char-box">Theodore Nott</div>
+      <div class="char-box">Pansy Parkinson</div>
+      <div class="char-box">Daphne Greengrass</div>
+      <div class="char-box">Lorenzo Berkshire</div>
+      <div class="char-box">Cho Chang</div>
+      <div class="char-box">Blaise Zabini</div>
+      <div class="char-box">Walburga Black</div>
+      <div class="char-box">Orion Black</div>
+    </div>
+  </section>
+
+  <section id="data" class="screen">
+    <button class="back-button" onclick="goBack()">← Volver</button>
+    <h2 class="content-title">
+      <span class="silver-text">Datos</span> Extra ✧ <span class="dark-text"></span>
+    </h2>
+    <div class="data-grid">
+      <div class="data-box">
+        <strong>HOGWARTS</strong>
+        <p>Escuela de Magia y Hechicería, fundada por los cuatro grandes magos: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw y Salazar Slytherin.</p>
+      </div>
+      <div class="data-box">
+        <strong>MANSIÓN MALFOY</strong>
+        <p>Residencia ancestral de los Malfoy, símbolo de pureza de sangre, lujo y poder dentro del mundo mágico.</p>
+      </div>
+      <div class="data-box">
+        <strong>ILVERMORNY</strong>
+        <p>Escuela de Magia Norteamericana, situada en el Monte Greylock, fundada por Isolt Sayre, descendiente de Salazar Slytherin.</p>
+      </div>
+      <div class="data-box">
+        <strong>MANSIÓN BLACK</strong>
+        <p>Antigua y majestuosa casa de la familia Black. Llena de retratos encantados, secretos familiares y reliquias mágicas.</p>
+      </div>
+
+      <div class="data-box">
+        <strong>Gustos y Disgustos de Emma</strong>
+        <p>Emma Malfoy.</p>
+      </div>
+
+      <div class="data-box">
+        <strong>Gustos y Disgustos de Regulus</strong>
+        <p>Regulus Black.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="playlist" class="screen">
+    <button class="back-button" onclick="goBack()">← Volver</button>
+    <h2 class="content-title">PLAYLIST OFICIAL</h2>
+    <section class="playlist-section">
+  <div class="playlist-card">
+    <h3>Malfoy Family</h3>
+    <iframe
+      src="https://open.spotify.com/embed/playlist/3cS6yuYKAS3IeaRmUuOBwe"
+      class="spotify-embed"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+    <a href="https://open.spotify.com/playlist/3cS6yuYKAS3IeaRmUuOBwe"
+       target="_blank"
+       class="action-button">
+      Abrir en Spotify
+    </a>
+  </div>
+
+  <div class="playlist-card">
+    <h3>Slytherin Party</h3>
+    <iframe
+      src="https://open.spotify.com/embed/playlist/255un5strd6uOkkCp6jg20"
+      class="spotify-embed"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+    <a href="https://open.spotify.com/playlist/255un5strd6uOkkCp6jg20"
+       target="_blank"
+       class="action-button">
+      Abrir en Spotify
+    </a>
+  </div>
+
+  <div class="playlist-card">
+    <h3>Dark Romance</h3>
+    <iframe
+      src="https://open.spotify.com/embed/playlist/4jzFRWpAxVS59WwWpep4NB"
+      class="spotify-embed"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+    <a href="https://open.spotify.com/playlist/4jzFRWpAxVS59WwWpep4NB"
+       target="_blank"
+       class="action-button">
+      Abrir en Spotify
+    </a>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
