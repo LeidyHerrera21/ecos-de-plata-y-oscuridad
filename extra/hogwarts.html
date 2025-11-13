@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogwarts — Datos Extra</title>
+  <link rel="stylesheet" href="extra.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="ecos.jpg">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background: radial-gradient(circle at center, #0a0a12 40%, #03030a 100%);
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .character-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(20, 20, 40, 0.7);
+      border: 1px solid #b6b6ff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 0 15px #b6b6ff;
+    }
+
+    .character-container img {
+      width: 160px;
+      border-radius: 10px;
+      border: 1px solid #b6b6ff;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      text-shadow: 0 0 10px #c4c4ff;
+    }
+
+    p, li {
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "★ ";
+      color: #b6b6ff;
+    }
+
+   .info-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #b6b6ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px auto;
+  box-shadow: 0 0 8px #8a8aff;
+  max-width: 800px;
+}
+
+    .back-button {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #b6b6ff;
+      border-radius: 8px;
+      padding: 8px 15px;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      transition: 0.3s;
+    }
+
+    .back-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 10px #b6b6ff;
+    }
+
+    .info-content {
+  display: flex;
+  align-items: center; /* centra verticalmente la imagen */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.info-text {
+  flex: 1;
+  text-align: left;
+}
+
+.info-image {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-image img {
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid #b6b6ff;
+  box-shadow: 0 0 10px #a8a8ff;
+}
+  </style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/1200x/2c/67/8e/2c678e058d1ef716e27c97d099fe7489.jpg" alt="Emma Malfoy">
+
+  <div class="info-text">
+
+    <div class="info-card">
+      <h3>Rutina Diaria</h3>
+      <ul>
+        <li>7:00 AM → Despertar y aseo personal.</li>
+        <li>8:00 AM → Desayuno en el Gran Comedor.</li>
+        <li>9:00 AM - 12:00 PM → Clases de la mañana.</li>
+        <li>12:00 PM - 1:00 PM → Almuerzo en el Gran Comedor.</li>
+        <li>1:00 PM - 5:00 PM → Clases de la tarde.</li>
+        <li>5:00 PM - 6:30 PM → Tiempo libre (entrenamiento, clubes, biblioteca, socializar).</li>
+        <li>6:30 PM - 7:30 PM → Cena en el Gran Comedor.</li>
+        <li>7:30 PM - 10:00 PM → Estudio, deberes o tiempo en las salas comunes.</li>
+        <li>10:00 PM → Toque de queda y regreso a los dormitorios.</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>Bebidas Favoritas</h3>
+      <p>Zumo de calabaza, té negro, chocolate caliente y sidra de manzana caliente en invierno.</p>
+    </div>
+
+    <div class="info-card">
+      <h3>Comida Favorita</h3>
+      <p>- Desayuno:
+    - Huevos revueltos, fritos o escalfados.
+    - Salchichas y tocino.
+    - Porridge (gachas de avena) con miel o azúcar.
+    - Tostadas con mantequilla y mermelada.
+    - Calabaza caramelizada.
+    - Zumo de calabaza, té negro o café.</p>
+
+    <p>- Almuerzo y cena:
+    - Pastel de carne con puré de patatas.
+    - Pudding de Yorkshire.
+    - Pastel de riñón y carne.
+    - Pollo asado con verduras.
+    - Estofado de ternera con pan recién horneado.
+    - Empanadas de calabaza.
+    - Sopa de cebolla o de tomate con pan de ajo.
+    - Pescado frito con patatas.</p>
+
+    <p>- Postres:
+    - Tarta de melaza.
+    - Natillas y pastel de grosellas.
+    - Pudín de caramelo con crema.
+    - Ranas de chocolate y grageas de Bertie Bott.
+    - Helado de frambuesa y chispas de chocolate.</p>
+    </div>
+
+    <div class="info-card">
+      <h3>Calendario Académico</h3>
+      <ul>
+        <li>1 de septiembre: Llegada de los estudiantes en el Expreso de Hogwarts.</li>
+        <li>Septiembre - Diciembre: Primer periodo (otoño).</li>
+        <li>Diciembre - Enero: Vacaciones de Navidad (2 semanas).</li>
+        <li>Enero - Marzo/Abril: Segundo periodo (invierno - primavera).</li>
+        <li>Marzo/Abril: Vacaciones de Pascua (2 semanas).</li>
+        <li>Abril - Junio: Tercer periodo (primavera - verano).</li>
+        <li>Finales de junio: Exámenes finales.</li>
+        <li>Julio - Agosto: Vacaciones de verano (2 meses).</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+  <div class="info-content">
+    <div class="info-text">
+      <h3>Materias Principales</h3>
+      <ul>
+        <li>Encantamientos</li>
+        <li>Defensa Contra las Artes Oscuras</li>
+        <li>Transformaciones</li>
+        <li>Runas Antiguas</li>
+        <li>Pociones</li>
+        <li>Historia de la Magia</li>
+        <li>Astronomía</li>
+        <li>Herbología</li>
+        <li>Cuidado de Criaturas Mágicas</li>
+        <li>Adivinación y Estudios Muggles</li>
+      </ul>
+    </div>
+    <div class="info-image">
+      <img src="https://i.pinimg.com/736x/aa/30/e5/aa30e5c69279322ed6b2a7e4fd64aaf0.jpg" alt="Emma Malfoy">
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+
+</body>
+</html>

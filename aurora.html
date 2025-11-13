@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurora Diggory - Ecos de Plata y Oscuridad</title>
+<link rel="stylesheet" href="styles.css">
+ <link rel="icon" type="image/png" href="ecos.jpg">
+<style>
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #0a0a12 40%, #03030a 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(20, 20, 40, 0.7);
+  border: 1px solid #b6b6ff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px #b6b6ff;
+}
+
+.character-container img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #b6b6ff;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 10px #c4c4ff;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #b6b6ff;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/1200x/41/94/d9/4194d9a4833edce8b88d56be4af171a4.jpg" alt="Emma Malfoy">
+  <h2>Aurora Lilith Diggory</h2>
+  <p><strong>Edad:</strong> 17 años</p>
+  <p><strong>Casa:</strong> Hufflepuff</p>
+  <p><strong>Varita:</strong> Sauce, 10¾ pulgadas, núcleo de fibra de corazón de unicornio, Elástica </p>
+  <p><strong>Patronus:</strong> Gato negro</p>
+  <p><strong>Personalidad:</strong> Inteligente, curiosa y algo enigmática. Aurora tiene una moral ambigua, ama el conocimiento y los secretos. Su belleza fría la hace destacar tanto como su voz suave, pero sus palabras pueden ser tan afiladas como una daga.</p>
+  <p><strong>Historia:</strong> Hermana menor de Cedric Diggory. Aunque su familia siempre brilló por su reputación intachable, Aurora es más rebelde. Conoció a Tom Riddle cuando él aún era estudiante en Hogwarts, y quedó fascinada por su mente y su visión del poder. A pesar de saber lo oscuro que puede llegar a ser, siente una conexión intelectual y emocional con él. También mantiene una estrecha amistad con Emma Malfoy, quien intenta mantenerla en el lado correcto de la magia.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>

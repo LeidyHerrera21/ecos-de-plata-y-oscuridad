@@ -15,7 +15,7 @@
       <button class="menu-button" onclick="showScreen('characters')">Ficha de Personajes</button>
       <button class="menu-button" onclick="showScreen('data')">Datos Extra</button>
       <button class="menu-button" onclick="showScreen('playlist')">Playlist</button>
-      <button class="menu-button" onclick="window.open('http://127.0.0.1:5500/index.html', '_blank')">Página de la autora</button>
+      <button class="menu-button" onclick="window.open('https://leidyherrera21.github.io/L.H/')">Página de la autora</button>
     </div>
   </section>
 
@@ -49,39 +49,48 @@
   </section>
 
   <section id="data" class="screen">
-    <button class="back-button" onclick="goBack()">← Volver</button>
-    <h2 class="content-title">
-      <span class="silver-text">Datos</span> Extra ✧ <span class="dark-text"></span>
-    </h2>
-    <div class="data-grid">
-      <div class="data-box">
-        <strong>HOGWARTS</strong>
-        <p>Escuela de Magia y Hechicería, fundada por los cuatro grandes magos: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw y Salazar Slytherin.</p>
-      </div>
-      <div class="data-box">
-        <strong>MANSIÓN MALFOY</strong>
-        <p>Residencia ancestral de los Malfoy, símbolo de pureza de sangre, lujo y poder dentro del mundo mágico.</p>
-      </div>
-      <div class="data-box">
-        <strong>ILVERMORNY</strong>
-        <p>Escuela de Magia Norteamericana, situada en el Monte Greylock, fundada por Isolt Sayre, descendiente de Salazar Slytherin.</p>
-      </div>
-      <div class="data-box">
-        <strong>MANSIÓN BLACK</strong>
-        <p>Antigua y majestuosa casa de la familia Black. Llena de retratos encantados, secretos familiares y reliquias mágicas.</p>
-      </div>
+  <button class="back-button" onclick="goBack()">← Volver</button>
+  <h2 class="content-title">
+    <span class="silver-text">Datos</span> Extra ✧
+  </h2>
 
-      <div class="data-box">
-        <strong>Gustos y Disgustos de Emma</strong>
-        <p>Emma Malfoy.</p>
-      </div>
-
-      <div class="data-box">
-        <strong>Gustos y Disgustos de Regulus</strong>
-        <p>Regulus Black.</p>
-      </div>
+  <div class="data-grid">
+    <div class="data-box">
+      <strong>HOGWARTS</strong>
+      <p>Escuela de Magia y Hechicería, fundada por los cuatro grandes magos:
+        Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw y Salazar Slytherin.</p>
+        <button class="info-button" onclick="location.href='extra/hogwarts.html'">Ver información de Hogwarts</button>
     </div>
-  </section>
+
+    <div class="data-box">
+      <strong>MANSIÓN MALFOY</strong>
+      <p>Residencia ancestral de los Malfoy, símbolo de pureza de sangre, lujo y poder dentro del mundo mágico.</p>
+      <button class="info-button" onclick="location.href='extra/malfoy.html'">Ver información de la Mansión Malfoy</button>
+    </div>
+
+    <div class="data-box">
+      <strong>ILVERMORNY</strong>
+      <p>Escuela de Magia Norteamericana, situada en el Monte Greylock, fundada por Isolt Sayre, descendiente de Salazar Slytherin.</p>
+      <button class="info-button" onclick="location.href='extra/ilvermorny.html'">Ver información de Ilvermorny</button>
+    </div>
+
+    <div class="data-box">
+      <strong>Casa BLACK</strong>
+      <p>Antigua y majestuosa casa de la familia Black. Llena de retratos encantados, secretos familiares y reliquias mágicas.</p>
+      <button class="info-button" onclick="location.href='extra/black.html'">Ver información de la Casa Black</button>
+    </div>
+
+    <div class="data-box">
+      <strong>Gustos y Disgustos de Emma</strong>
+      <button class="info-button" onclick="location.href='extra/gustos.html'">Ver información de Emma</button>
+    </div>
+
+    <div class="data-box">
+      <strong>Gustos y Disgustos de Regulus</strong>
+      <button class="info-button" onclick="location.href='extra/disgustos.html'">Ver información de Regulus</button>
+    </div>
+  </div>
+</section>
 
   <section id="playlist" class="screen">
     <button class="back-button" onclick="goBack()">← Volver</button>

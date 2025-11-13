@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regulus Black - Ecos de Plata y Oscuridad</title>
+<link rel="stylesheet" href="styles.css">
+ <link rel="icon" type="image/png" href="ecos.jpg">
+<style>
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #0a0a12 40%, #03030a 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(20, 20, 40, 0.7);
+  border: 1px solid #b6b6ff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px #b6b6ff;
+}
+
+.character-container img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #b6b6ff;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 10px #c4c4ff;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #b6b6ff;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/1200x/7a/cc/c2/7accc259a481b2cd9b436bf428639fd9.jpg" alt="Emma Malfoy">
+  <h2>Regulus Arcturus Black</h2>
+  <p><strong>Edad:</strong> 17 años</p>
+  <p><strong>Casa:</strong> Slytherin</p>
+  <p><strong>Varita:</strong> Nogal negro, 12 ½ pulgadas, núcleo de pelo de testral,Levemente flexible </p>
+  <p><strong>Patronus:</strong> Pantera Negra</p>
+  <p><strong>Personalidad:</strong> Regulus es un hombre disciplinado, reservado y elegante, con una mente brillante y una fuerza emocional silenciosa. Aunque parece tranquilo, posee un temperamento intenso, especialmente cuando se trata de Emma.
+A diferencia de su hermano Sirius, es más formal, reflexivo y protector. Ama profundamente a Emma y haría cualquier cosa por mantenerla a salvo, incluso si eso significa ponerse en contra del mundo. Tiene un aire de nobleza natural, pero sin la arrogancia vacía de su familia.</p>
+  <p><strong>Historia:</strong> Heredero de la Casa Black, Regulus creció bajo el peso de las expectativas familiares. A diferencia de Sirius, aceptó el linaje puro-sangre, pero con el tiempo empezó a cuestionarlo. Su relación con Emma lo cambió: ella lo llevó a ver la magia desde otra perspectiva.
+Después de Hogwarts, Regulus dejó de lado sus vínculos con los mortífagos, dedicándose a proteger a su familia. Es conocido por su inteligencia, su destreza en Quidditch y su capacidad para usar magia antigua.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>
